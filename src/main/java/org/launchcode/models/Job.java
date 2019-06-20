@@ -14,12 +14,12 @@ public class Job {
     private PositionType positionType;
     private CoreCompetency coreCompetency;
 
-    public Job() {
+    public Job() {                     //default constructor
         id = nextId;
         nextId++;
     }
 
-    public Job(String aName, Employer aEmployer, Location aLocation,
+    public Job(String aName, Employer aEmployer, Location aLocation,         // constructor w/ params
                PositionType aPositionType, CoreCompetency aSkill) {
 
         this();
